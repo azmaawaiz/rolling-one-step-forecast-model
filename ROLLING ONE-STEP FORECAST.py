@@ -1,3 +1,26 @@
+"""
+Rolling Seasonal Price Forecast
+
+Author: Azma Awaiz
+
+Description
+-----------
+This script implements a rolling one-step-ahead forecasting model based on
+historical percentage changes.
+
+The model updates its historical dataset after each prediction using the
+newly observed market price, simulating a real-world forecasting process.
+
+Method:
+    - Compute historical percentage changes
+    - Estimate seasonal expected returns
+    - Forecast next month's price
+    - Update dataset with actual observation
+    - Repeat until forecast horizon is complete
+
+Libraries:
+    pandas
+"""
 import pandas as pd
 
 # ==========================================================
