@@ -61,7 +61,3 @@ This creates a rolling forecast that continually adapts to newly observed market
 |11/30/2021|10.14|11.20|1.06|
 |...|...|...|...|
 
-
-## License
-
-This project is released under the MIT License.
